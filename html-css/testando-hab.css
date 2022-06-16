@@ -1,0 +1,91 @@
+body{
+    background: whitesmoke;
+    max-width: 900px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#title, .num_prato, .nome_prato{
+    color: rgb(34, 31, 31)
+}
+
+.num_prato{
+    margin-bottom: 0px;
+}
+
+.nome_prato{
+    font-size: 30px;
+
+
+}
+
+.post_content{
+    margin-top: 5px;
+    padding-bottom: 25px;
+    color: rgb(34, 31, 31)
+
+}
+
+#title{
+    font-size: 30px;
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+.chefe_img{
+    border-radius: 50%;
+    border: 2px solid burlywood;
+    
+}
+
+.listas{
+    padding-left: 25px;
+    text-align: justify;
+    color: rgb(34, 31, 31);
+    
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ul, ol{
+    margin-bottom: 45px;
+}
+
+.post_img{
+    width: 100%;
+    border-radius: 5%;
+    border: px solid burlywood;
+    
+}
+
+.backgroud_cabecalho{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.post{
+    margin: 0;
+    padding: 10px
+    
+}
+
+.titulo_lista{
+    color: rgb(34, 31, 31)
+}
+
+.Hrefs{
+    color: rgba(255, 68, 0, 0.664);
+    margin: auto;
+}
+
+.secao{
+    border-bottom: 3px solid rgb(34, 31, 31);
+}
