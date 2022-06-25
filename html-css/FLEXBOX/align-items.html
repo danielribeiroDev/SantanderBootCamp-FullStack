@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+
+    <style>
+        .container{
+            display: flex;
+            max-width: 350px;
+            border: 2px solid black;
+        }
+
+        .item{
+            background-color: blueviolet;
+            color: white;
+            margin: 5px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+
+        .basealine{
+            align-items: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 350px;
+            justify-content: center;
+        }
+
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">teste</div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamente</div>
+    </section>
+
+    <p>Strech</p>
+    <section class="container stretch">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>Start</p>
+    <section class="container start">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>End</p>
+    <section class="container end">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>Basealine</p>
+    <section class="container basealine">
+        <div class="item"><br>teste</div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e e e
+    </section>
+
+    <h1>COLUNA</h1>
+
+    <p>Center</p>
+    <section class="container center column">
+        <div class="item">teste</div>
+        <div class="item">testeando o teste do teste novamente</div>
+        <div class="item">testando teste do teste</div>
+    </section>
+
+    <p>Strech (nada muda)</p>
+    <section class="container stretch column">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>Start</p>
+    <section class="container start column">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>End</p>
+    <section class="container end column">
+        <div class="item">teste </div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e 
+    </section>
+
+    <p>Basealine</p>
+    <section class="container basealine column">
+        <div class="item"><br>teste</div>
+        <div class="item">testando teste do teste</div>
+        <div class="item">testeando o teste do teste novamenteeeee e e e e e
+    </section>
+
+    <p>Central</p>
+    <section class="container central center">
+        <div class="item">testeando o teste do teste novamenteeeee e e e e e
+    </section>
+
+    
+
+
+    
+</body>
+</html>

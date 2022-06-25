@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        border: 2px solid black;
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .item{
+        background-color: slateblue;
+        color: white;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .f-g1{
+        flex-grow: 1;
+    }
+
+    .f-g2{
+        flex-grow: 2;
+    }
+
+    .bauto{
+        flex-basis: auto;
+    }
+
+    .b0{
+        flex-basis: 0;
+    }
+
+    .w100{
+        flex-basis: 100px;
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+</style>
+<body>
+    <div class="container wrap">
+        <div class="item f-g1 bauto">A</div>
+        <div class="item f-g1 bauto">BB</div>
+        <div class="item f-g1 bauto">CD</div>
+        <div class="item f-g1 bauto">EFF</div>
+    </div>
+
+    <div class="container column">
+        <div class="item f-g1 b0">Aaaaaaaaaaaaaaa</div>
+        <div class="item f-g1 b0">BB</div>
+        <div class="item f-g1 b0">CD</div>
+        <div class="item f-g1 b0">EFF</div>
+    </div>
+
+    <div class="container column">
+        <div class="item w100 f-g2">AAA</div>
+        <div class="item w100 f-g1">BBA</div>
+        <div class="item w100 f-g1">CDA</div>
+        <div class="item w100 f-g2">EFF</div>
+    </div>
+</body>
+</html>

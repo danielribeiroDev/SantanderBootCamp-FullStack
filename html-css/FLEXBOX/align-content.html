@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            height: 450px;
+            max-width: 300px;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background-color: orangered;
+            text-align: center;
+            color: white;
+            flex: 1;
+            padding: 0 5px;
+            margin: 5px;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .start {
+            align-content: flex-start;
+        }
+
+        .end {
+            align-content: flex-end;
+        }
+
+        .between {
+            align-content: space-between;
+        }
+
+        .around {
+            align-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container around">
+        <div class="item">adfsdgsasdfsfafdsf, afa fsafafdasfasfafsf</div>
+        <div class="item">aaaadadfsdfa</div>
+        <div class="item">asdasda</div>
+        <div class="item">adafsdfsdg, dfhghdsfa<br>asdasdasda<br>asfasfasfasf</div>
+        <div class="item">adasdasfasda</div>
+        <div class="item">fsdfsdfsdfs, dfsdfssdfs</div>
+        <div class="item">asfa, dfsdfsdfsdf</div>
+    </div>
+</body>
+
+</html>
