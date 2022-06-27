@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+         max-width: 350px;
+         border: 1px solid black;
+         margin-bottom: 10px;
+         display: flex;
+        }
+
+        .item {
+            background-color: brown;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            font-size: 24px;
+        }
+
+        .aling-container {
+            align-items: center;
+        }
+
+        .as-start {
+            align-self: flex-start;
+        }
+
+        .as-end {
+            align-self: flex-end;
+        }
+
+        .as-center{
+            align-self: center;
+        }
+
+        .as-basealine{
+            align-self: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1111111</div>
+        <div class="item">244444 4</div>
+        <div class="item">3aaaaa, ffdsfsf, sdfs</div>
+        <div class="item">455555 55555</div>
+    </div>
+
+    <div class="container column">
+        <div class="item as-center">1111111</div>
+        <div class="item as-end">244444 4</div>
+        <div class="item">3aaaaa, ffdsfsf, sdfs</div>
+        <div class="item">455555 55555</div>
+    </div>
+</body>
+
+</html>
